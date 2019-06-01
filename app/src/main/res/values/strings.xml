@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Wise Accounts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Invalid_Address"> Address is Invalid</string>
+
+    <!-- Buttons -->
+    <string name="Next">Next</string>
+    <string name="Generate">Generate</string>
+    <string name="Export">Export</string>
+    <string name="Export_Mail">Export and Mail</string>
+    <string name="Print">Print</string>
+    <string name="Submit">Submit</string>
+    <string name="Save">Save</string>
+    <string name="Update">Update</string>
+
+
+    <!-- Text Views -->
+    <string name="Email_Id">Email ID:</string>
+    <string name="Hint_Email_Id">Email ID</string>
+    <string name="Name">Name*:</string>
+    <string name="Hint_Name">Name</string>
+    <string name="Contact">Contact No :</string>
+    <string name="Hint_Contact">Contact No</string>
+    <string name="Address">Address :</string>
+    <string name="Hint_Address">Address</string>
+
+    <string name="Office_Name">Name of Office*:</string>
+    <string name="Hint_Office_Name">Office Name</string>
+    <string name="Owner_Name">Name of Owner*:</string>
+    <string name="Hint_Owner_Name">Owner Name</string>
+
+    <string name="FromDate">From Date :</string>
+    <string name="ToDate">To Date :</string>
+
+    <string name="Total_Expense">Total Expense :</string>
+    <string name="Expense">EXPENSE</string>
+    <string name="Amount">AMOUNT</string>
+
+    <string name="Month">Month : </string>
+
+    <string name="Total_Salary">Total Salary :</string>
+    <string name="Agent_Name">AGENT NAME</string>
+
+    <string name="Expense_Type">Expense Type</string>
+    <string name="Expense_Type_Name">Expense Type Name*:</string>
+    <string name="Hint_Expense_Type_Name">Expense Type</string>
+    <string name="Frequency">Frequency :</string>
+    <string name="Default_Amount">Default Amount :</string>
+    <string name="Hint_Amount">Amount</string>
+
+
+    <!-- Headers for activities-->
+    <string name="Profile_Setup">Profile Setup</string>
+    <string name="Report">Report</string>
+    <string name="Select_Entity">Select_Entity</string>
+    <string name="Select_Account">Select Account</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Configuration">Configuration</string>
+
+    <string name="Add_Expense_Type">Add Expense Type</string>
+    <string name="Edit_Expense_Type">Edit Expense Type</string>
+
+
+    <!-- Invalid Comments -->
+    <string name="Invalid_Name">Name is Invalid</string>
+    <string name="Invalid_Contact">Contact Number is Invalid</string>
+    <string name="Invalid_Office_Name">Office Name is Invalid</string>
+    <string name="Invalid_Owner">Owner Name is Invalid</string>
+
+    <string name="Entity_not_created">Entity not created</string>
+    <string name="Account_not_created">Account not created</string>
+
+    <string name="Set_to_date">Set To Date</string>
+    <string name="Set_from_date">Set From Date</string>
+
+    <string name="Invalid_Date">Date is Invalid</string>
+
+    <string name="Invalid_Edit"> Please select at least one expense type</string>
+
+    <string name="No_Expense_Type_Added">No Expense Type Added</string>
+    <string name="No_Expense_Type_Edited">No Expense Type Edited</string>
+
+    <string name="Expense_Not_Blank">Expense Type should not be blank</string>
+    <string name="Already_Exists"> already exists</string>
+
+
+    <!--List Items-->
+    <!-- Select Account -->
+    <string name="Expense_Report">Expense Report</string>
+    <string name="Salary_Report">Salary Report</string>
+
+    <!-- Select Entity -->
+    <string name="Office">Office</string>
+    <string name="Personal">Personal</string>
+
+
+    <!-- Frequency List-->
+    <string-array name="frequency">
+        <item>Daily</item>
+        <item>None</item>
+        <item>Monthly</item>
+    </string-array>
+
+
+    <!-- Alert Dialogs -->
+    <string name="alert">Alert!</string>
+    <string name="wanna_delete">Do you really want to delete</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+</resources>

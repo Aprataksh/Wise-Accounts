@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ECEFF1</color>
+    <color name="colorPrimaryDark">#493185</color>
+    <color name="colorAccent">#632177</color>
+    <color name="colorblue">#493185</color>
+    <color name="colorText">#000000</color>
+    <color name="toolbar_select_account">#888</color>
+    <color name="OnSelected">#96DFDF</color>
+    <color name="colorwhite">#fff</color>
+    <color name="calendar_selected_day_bg">@color/colorPrimaryDark</color>
+    <color name="calendar_selected_range_bg">@color/colorPrimaryDark</color>
+    <color name="dateTimeRangePickerStateToday">@color/colorPrimaryDark</color>
+    <color name="colorRed">#ff0000</color>
+</resources>

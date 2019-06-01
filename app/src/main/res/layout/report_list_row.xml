@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.wiselap.accounts.utils.Binding_utils" />
+        <variable
+            name="width"
+            type="int" />
+    </data>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/border"
+            />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</layout>
