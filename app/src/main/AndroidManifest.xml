@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wiselap.accounts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ApplicationStartup"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Select_Entity.SelectEntityActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Details" />
+        <activity android:name=".SignIn.GoogleSignInUsersActivity">
+
+        </activity>
+        <activity android:name=".expense.EditExpense" />
+        <activity android:name=".Report.Expense_Report.ExpenseReportDisplay.ExpenseReportDisplayActivity" />
+        <activity android:name=".Report.Expense_Report.ExpenseReportSearch.ExpenseReportActivity" />
+        <activity android:name=".Select_Account.SelectAccountActivity" />
+        <activity android:name=".Office.OfficeActivity" />
+        <activity android:name=".Report.ReportActivity" />
+        <activity android:name=".expense.Expenses" />
+        <activity android:name=".expense.AddExpense" />
+        <activity android:name=".Personal.PersonalActivity" />
+        <activity android:name=".home_screen.Homepage" />
+        <activity android:name=".users.Users" />
+         <activity android:name=".users.AddUsers" />
+         <activity
+             android:name=".SplashScreen"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Configuration.ConfigurationActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ExpenseType.ExpenseTypeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ExpenseType.AddExpenseType.AddExpenseTypeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Report.Salary_Report.SalaryReportSearch.SalaryReportActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Report.Salary_Report.SalaryReportDisplay.SalaryReportDisplayActivity" android:screenOrientation="portrait"/>
+     </application>
+
+</manifest>

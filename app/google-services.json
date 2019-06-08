@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "707303847513",
+    "firebase_url": "https://wiseaccounts-83194.firebaseio.com",
+    "project_id": "wiseaccounts-83194",
+    "storage_bucket": "wiseaccounts-83194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707303847513:android:51fd15f166c53e74",
+        "android_client_info": {
+          "package_name": "com.wiselap.accounts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707303847513-ufqlv06vtc1gjphk92ec5butmihikigo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wiselap.accounts",
+            "certificate_hash": "6b696ed75458fbbce8982d34a6576d293aad1cc2"
+          }
+        },
+        {
+          "client_id": "707303847513-g3d3cjk18og7ji8jco7jrervnedlb7qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCy6j_5ZoAOVazIDb3bQ2S83HrDE71t0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707303847513-g3d3cjk18og7ji8jco7jrervnedlb7qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
